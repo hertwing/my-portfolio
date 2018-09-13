@@ -636,10 +636,14 @@ img {
 	}
 
 	.Technologies-wrapper,
-	.About-wrapper,
 	.Contact-wrapper {
 		width: 96%;
 		padding: 1% 2%;
+	}
+
+	.About-wrapper {
+		width: 92%;
+		padding: 1% 4%;
 	}
 
 	#Contact {
@@ -726,8 +730,14 @@ img {
 		width: 49%;
 	}
 
+	
 	.Portfolio-wrapper {
 		padding: 1%;
+	}
+
+	.Portfolio-object {
+		margin: 1%;
+		width: 98%;
 	}
 
 	.Portfolio-object h3,
