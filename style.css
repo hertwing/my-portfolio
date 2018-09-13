@@ -515,6 +515,7 @@ img {
 .Portfolio-object {
 	margin-left: 5px;
 	margin-right: 5px;
+	margin-bottom: 10px;
 	background: #ffffff;
 	width: 24%;
 }
@@ -701,6 +702,7 @@ img {
 
 	.Portfolio-object {
 		margin: 1%;
+		margin-bottom: 2%;
 		width: 48%;
 	}
 
@@ -737,6 +739,7 @@ img {
 
 	.Portfolio-object {
 		margin: 1%;
+		margin-bottom: 10px;
 		width: 98%;
 	}
 
