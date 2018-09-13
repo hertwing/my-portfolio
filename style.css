@@ -621,7 +621,10 @@ img {
 	.Contact-wrapper {
 		width: 96%;
 		padding: 1% 2%;
-		/*padding: 0;*/
+	}
+
+	.Main-image, #Contact {
+		background-attachment: scroll;
 	}
 
 	.Main-image-text-top {
