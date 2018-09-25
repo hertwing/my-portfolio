@@ -95,20 +95,24 @@ var main = function() {
 	});
 
 	//Portfolio item hover text
-	$(".Portfolio-object").hover(
-		function() {
-			// in
-			$(this)
-				.find(".Portfolio-image-hover-wrapper")
-				.show();
-		},
-		function() {
-			// out
-			$(this)
-				.find(".Portfolio-image-hover-wrapper")
-				.hide();
-		}
-	);
+	if ($(window).width() >= 1024) {
+		$(".Portfolio-object").hover(
+			function() {
+				// in
+				$(this)
+					.find(".Portfolio-image-hover-wrapper")
+					.show();
+			},
+			function() {
+				// out
+				$(this)
+					.find(".Portfolio-image-hover-wrapper")
+					.hide();
+			}
+		);
+	} else {
+		$(".Portfolio-image-hover-wrapper").show();
+	}
 };
 
 $(document).ready(main);
