@@ -668,9 +668,9 @@ img {
         background-attachment: scroll;
     }
 
-/*    .main_image_text_top {
+    .main_image_text_top h1 {
         font-size: 1.5rem;
-    }*/
+    }
 
     .main_image_text_center {
         margin: 5px 1rem 5px 10;
@@ -678,9 +678,9 @@ img {
         margin-right: 33%;
     }
 
-/*    .main_image_text_bottom {
+    .main_image_text_bottom h2 {
         font-size: 1rem;
-    }*/
+    }
 
     .technologies_list {
         padding: 0;
@@ -699,11 +699,11 @@ img {
         padding-bottom: 10px;
     }
 
-    .about_header h1 {
+    .about_header h2 {
         margin-bottom: 0;
     }
 
-    .about_content h1 {
+    .about_content h2 {
         display: none;
     }
 
