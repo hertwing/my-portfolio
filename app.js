@@ -114,4 +114,4 @@ var main = function() {
 	}
 };
 
-$(document).on('pagecontainerload', main());
+$(window).bind('load', main());
