@@ -8,7 +8,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="style.css?time=<?php echo time()?>" />
     <link rel="stylesheet" href="./jquery-ui/jquery-ui.min.css" />
@@ -17,75 +16,73 @@
 </head>
 
 <body>
-    <div class="Preloader">
-        <div class="Loader-wrapper">
-            <div id="Loader-cube-1"></div>
-            <div id="Loader-cube-2"></div>
-            <div id="Loader-cube-3"></div>
-            <div id="Loader-cube-4"></div>
-            <div id="Loader-cube-5"></div>
-            <div id="Loader-cube-6"></div>
-            <div id="Loader-cube-7"></div>
-            <div id="Loader-cube-8"></div>
-            <div id="Loader-cube-9"></div>
+    <div class="preloader">
+        <div class="loader_wrapper">
+            <div id="loader_cube_1"></div>
+            <div id="loader_cube_2"></div>
+            <div id="loader_cube_3"></div>
+            <div id="loader_cube_4"></div>
+            <div id="loader_cube_5"></div>
+            <div id="loader_cube_6"></div>
+            <div id="loader_cube_7"></div>
+            <div id="loader_cube_8"></div>
+            <div id="loader_cube_9"></div>
         </div>
-        <div class="Loader-text">
-            <span>Loading</span><span id="Dot-1">.</span><span id="Dot-2">.</span><span id="Dot-3">.</span>
+        <div class="loader_text">
+            <span>Loading</span><span id="dot_1">.</span><span id="dot_2">.</span><span id="dot_3">.</span>
         </div>
     </div>
-    <div class="Main-image" id="Main-image-wrapper">
-        <div class="Background-opacity-wrapper"></div>
-        <div class="Main-image-content-wrapper">
-            <div class="Main-image-text">
-                <div class="Main-text-wrapper">
-                    <div class="Main-image-text-top">Piotr Henczel -&nbsp;Portfolio</div>
-                    <br />
-                    <div class="Main-image-text-center"></div>
-                    <br />
-                    <div class="Main-image-text-bottom">Junior Front-end Developer</div>
+    <div class="main_image" id="main_image_wrapper">
+        <div class="background_opacity_wrapper"></div>
+        <div class="main_image_content_wrapper">
+            <div class="main_image_text">
+                <div class="main_text_wrapper">
+                    <div class="main_image_text_top"><h1>Piotr Henczel -&nbsp;Portfolio</h1></div>
+                    <div class="main_image_text_center"></div>
+                    <div class="main_image_text_bottom"><h2>Junior Front-end Developer</h2></div>
                 </div>
-                <div class="Technologies-link" id="Main-image-go-foreward-wrapper">
-                    <div id="Main-image-go-foreward">
+                <div class="technologies_link" id="main_image_go_foreward_wrapper">
+                    <div id="main_image_go_foreward">
                         <span>Przejdź dalej</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="Main-container">
-        <div class="Nav-bar-wrapper">
-            <div class="Nav-bar">
-                <div id="My-logo" class="Main-image-wrapper-link">Piotr Henczel - Portfolio</div>
-                <div class="Nav-menu">
-                    <div class="Technologies-link" id="Technologies-link">Technologie których używam</div>
-                    <div class="About-link" id="About-link">O&nbsp;mnie</div>
-                    <div class="Portfolio-link" id="Portfolio-link">Moje projekty</div>
-                    <div class="Contact-link" id="Contact-link">Kontakt</div>
+    <div class="main_container">
+        <section class="nav_bar_wrapper">
+            <div class="nav_bar">
+                <div id="my_logo" class="main_image_wrapper_link">Piotr Henczel - Portfolio</div>
+                <div class="nav_menu">
+                    <div class="technologies_link" id="technologies_link">Technologie których używam</div>
+                    <div class="about_link" id="about_link">O&nbsp;mnie</div>
+                    <div class="portfolio_link" id="portfolio_link">Moje projekty</div>
+                    <div class="contact_link" id="contact_link">Kontakt</div>
                 </div>
-                <div class="Nav-menu-mobile-hamburger">
+                <div class="nav_menu_mobile_hamburger">
                     <i class="fas fa-bars"></i>
                 </div>
             </div>
-            <div class="Nav-menu-mobile">
-                <div class="Technologies-link" id="Technologies-link-mobile">Technologie których używam</div>
-                <div class="About-link" id="About-link-mobile">O&nbsp;mnie</div>
-                <div class="Portfolio-link" id="Portfolio-link-mobile">Moje projekty</div>
-                <div class="Contact-link" id="Contact-link-mobile">Kontakt</div>
+            <div class="nav_menu_mobile">
+                <div class="technologies_link" id="technologies_link_mobile">Technologie których używam</div>
+                <div class="about_link" id="about_link_mobile">O&nbsp;mnie</div>
+                <div class="portfolio_link" id="portfolio_link_mobile">Moje projekty</div>
+                <div class="contact_link" id="pontact_link_mobile">Kontakt</div>
             </div>
-        </div>
-        <div id="Technologies">
-            <div class="Technologies-wrapper">
-                <div class="Technologies-header">
-                    <h1>Technologie, które poznałem do tej pory</h1>
+        </section>
+        <section id="technologies">
+            <div class="technologies_wrapper">
+                <div class="technologies_header">
+                    <h2>Technologie, które poznałem do tej pory</h2>
                 </div>
-                <div class="Technologies-gallery">
-                    <ul class="Technologies-list">
-                        <li id="li-html" class="Reveal-on-scroll">
+                <div class="technologies_gallery">
+                    <ul class="technologies_list">
+                        <li id="li_html" class="reveal_on_scroll">
                             <span>HTML</span>
-                            <div class="Technology-image-wrap">
-                                <img src="./img/html.png" alt="html" id="html-img" />
+                            <div class="technology_image_wrap">
+                                <img src="./img/html.png" alt="html" id="html_img" />
                             </div>
-                            <div class="Technologies-dots">
+                            <div class="technologies_dots">
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-circle"></i>
@@ -93,12 +90,12 @@
                                 <i class="fas fa-dot-circle"></i>
                             </div>
                         </li>
-                        <li id="li-css" class="Reveal-on-scroll">
+                        <li id="li_css" class="reveal_on_scroll">
                             <span>CSS</span>
-                            <div class="Technology-image-wrap">
-                                <img src="./img/css.png" alt="css" id="css-img" />
+                            <div class="technology_image_wrap">
+                                <img src="./img/css.png" alt="css" id="css_img" />
                             </div>
-                            <div class="Technologies-dots">
+                            <div class="technologies_dots">
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-circle"></i>
@@ -106,12 +103,12 @@
                                 <i class="fas fa-dot-circle"></i>
                             </div>
                         </li>
-                        <li id="li-javascript" class="Reveal-on-scroll">
+                        <li id="li_javascript" class="reveal_on_scroll">
                             <span>JavaScript</span>
-                            <div class="Technology-image-wrap">
-                                <img src="./img/javascript.png" alt="javascript" id="javascript-img" />
+                            <div class="technology_image_wrap">
+                                <img src="./img/javascript.png" alt="javascript" id="javascript_img" />
                             </div>
-                            <div class="Technologies-dots">
+                            <div class="technologies_dots">
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-circle"></i>
@@ -119,12 +116,12 @@
                                 <i class="fas fa-dot-circle"></i>
                             </div>
                         </li>
-                        <li id="li-jquery" class="Reveal-on-scroll">
+                        <li id="li_jquery" class="reveal_on_scroll">
                             <span>jQuery</span>
-                            <div class="Technology-image-wrap">
-                                <img src="./img/jquery.png" alt="jquery" id="jquery-img" />
+                            <div class="technology_image_wrap">
+                                <img src="./img/jquery.png" alt="jquery" id="jquery_img" />
                             </div>
-                            <div class="Technologies-dots">
+                            <div class="technologies_dots">
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-circle"></i>
@@ -132,12 +129,12 @@
                                 <i class="fas fa-dot-circle"></i>
                             </div>
                         </li>
-                        <li id="li-jqueryui" class="Reveal-on-scroll">
+                        <li id="li_jqueryui" class="reveal_on_scroll">
                             <span>jQuery UI</span>
-                            <div class="Technology-image-wrap">
-                                <img src="./img/jqueryui.png" alt="jqueryui" id="jqueryui-img" />
+                            <div class="technology_image_wrap">
+                                <img src="./img/jqueryui.png" alt="jqueryui" id="jqueryui_img" />
                             </div>
-                            <div class="Technologies-dots">
+                            <div class="technologies_dots">
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-circle"></i>
@@ -145,12 +142,12 @@
                                 <i class="fas fa-dot-circle"></i>
                             </div>
                         </li>
-                        <li id="li-react" class="Reveal-on-scroll">
+                        <li id="li_react" class="reveal_on_scroll">
                             <span>React</span>
-                            <div class="Technology-image-wrap">
+                            <div class="technology_image_wrap">
                                 <img src="./img/react.png" alt="react" id="react-img" />
                             </div>
-                            <div class="Technologies-dots">
+                            <div class="technologies_dots">
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-dot-circle"></i>
@@ -158,12 +155,12 @@
                                 <i class="fas fa-dot-circle"></i>
                             </div>
                         </li>
-                        <li id="li-git" class="Reveal-on-scroll">
+                        <li id="li_git" class="reveal_on_scroll">
                             <span>GIT</span>
-                            <div class="Technology-image-wrap">
+                            <div class="technology_image_wrap">
                                 <img src="./img/git.png" alt="git" id="git-img" />
                             </div>
-                            <div class="Technologies-dots">
+                            <div class="technologies_dots">
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-dot-circle"></i>
@@ -171,12 +168,12 @@
                                 <i class="fas fa-dot-circle"></i>
                             </div>
                         </li>
-                        <li id="li-php" class="Reveal-on-scroll">
+                        <li id="li_php" class="reveal_on_scroll">
                             <span>PHP</span>
-                            <div class="Technology-image-wrap">
-                                <img src="./img/php.png" alt="php" id="php-img" />
+                            <div class="technology_image_wrap">
+                                <img src="./img/php.png" alt="php" id="php_img" />
                             </div>
-                            <div class="Technologies-dots">
+                            <div class="technologies_dots">
                                 <i class="fas fa-circle"></i>
                                 <i class="fas fa-dot-circle"></i>
                                 <i class="fas fa-dot-circle"></i>
@@ -187,149 +184,151 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div id="About">
-            <div class="About-wrapper">
-                <div class="About-header">
-                    <h1>Kilka słów o&nbsp;mnie</h1>
+        </section>
+        <section id="about">
+            <div class="about_wrapper">
+                <div class="about_header">
+                    <h2>Kilka słów o&nbsp;mnie</h2>
                 </div>
-                <div class="About-container">
-                    <div class="Photo-of-me">
-                        <img src="./img/me.jpg" alt="My-portrait" />
+                <div class="about_container">
+                    <div class="photo_of_me">
+                        <img src="./img/me.jpg" alt="author portrait" />
                     </div>
-                    <div class="About-content">
-                        <h1>Cześć!</h1>
-                        <p> Na imię mi Piotrek i&nbsp;jestem początkującym programistą front-end. Już jako dziecko byłem zafascynowany projektowaniem stron www i&nbsp;nadawaniu im "życia". Kilkanaście miesięcy temu postanowiłem zgłębić tajniki języków hipertekstowych, JavaScript, PHP i&nbsp;mySQL.
-                            <br />
-                            <br /> Realizując swój pierwszy projekt przekonałem się, że to właśnie we front-endzie odnajduję się najlepiej, a&nbsp;długie godziny spędzone przy rozwiązywaniu problemów, czytaniu dokumentacji i&nbsp;nauce nowych rzeczy sprawiają mi prawdziwą przyjemność. Dużą wagę przykładam do estetyki moich prac i&nbsp;technik projektowania RWD. Obecnie studiuję zaocznie informatykę i&nbsp;poszukuję mojej pierwszej pracy jako Junior Front-end Developer.
-                            <br />
-                            <br /> Zapraszam Cię do zapoznania się z&nbsp;moimi projektami.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="Portfolio">
-            <div class="Portfolio-wrapper">
-                <div class="Portfolio-header">
-                    <h1>Moje prace</h1>
-                </div>
-                <div class="Portfolio-container">
-                	<div class="Portfolio-object">
-                        <a target="_blank" href="https://piotrh.usermd.net/">
-                            <div class="Portfolio-image-wrapper">
-                                <img src="./img/rwd-blogger.jpg" alt="React app" style="width: 100%;" />
-                                <div class="Portfolio-image-hover-wrapper">
-                                    <div class="Portfolio-image-hover-text">Kliknij tutaj aby przejść do projektu</div>
-                                </div>
-                            </div>
-                        </a>
-                        <h3>RWD Blog</h3>
-                        <p>
-                            <!-- <i class="fas fa-info-circle"></i> -->
-                            Blog zbudowany w&nbsp;React.js. Na&nbsp;chwilę obecną jest to&nbsp;mój największy projekt. Do&nbsp;obsługi skryptów po&nbsp;stronie serwera użyłem języka PHP. Mimo działającej głównej funkcjonalności, projekt jest wciąż w budowie.
+                    <div class="about_content">
+                        <h3>Cześć!</h3>
+                        <p>Na imię mi Piotrek i&nbsp;jestem początkującym programistą front-end. Już jako dziecko byłem zafascynowany projektowaniem stron www i&nbsp;nadawaniu im "życia". Kilkanaście miesięcy temu postanowiłem zgłębić tajniki języków hipertekstowych, JavaScript, PHP i&nbsp;mySQL. 
                         </p>
-                    </div>
-                    <div class="Portfolio-object">
-                        <a target="_blank" href="https://hertwing.github.io/memory-game/">
-                            <div class="Portfolio-image-wrapper">
-                                <img src="./img/memory-game.jpg" alt="React app" style="width: 100%;" />
-                                <div class="Portfolio-image-hover-wrapper">
-                                    <div class="Portfolio-image-hover-text">Kliknij tutaj aby przejść do projektu</div>
-                                </div>
-                            </div>
-                        </a>
-                        <h3>Memory Game</h3>
-                        <p>
-                            <!-- <i class="fas fa-info-circle"></i> -->
-                            Prosta gra z&nbsp;rodzaju pamięciowych, napisana w&nbsp;React.js.
+                        <p>Realizując swój pierwszy projekt przekonałem się, że to właśnie we front-endzie odnajduję się najlepiej,&nbsp;a długie godziny spędzone przy rozwiązywaniu problemów, czytaniu dokumentacji i nauce nowych rzeczy sprawiają mi prawdziwą przyjemność. Dużą wagę przykładam do estetyki moich prac&nbsp;i technik projektowania RWD. Obecnie studiuję zaocznie informatykę&nbsp;i poszukuję mojej pierwszej pracy jako Junior Front-end Developer.
                         </p>
-                    </div>
-                    <div class="Portfolio-object">
-                        <a target="_blank" href="https://hertwing.github.io/another-bootstrap-page/">
-                            <div class="Portfolio-image-wrapper">
-                                <img src="./img/awesome-page.jpg" alt="Bootstrap page" style="width: 100%;" />
-                                <div class="Portfolio-image-hover-wrapper">
-                                    <div class="Portfolio-image-hover-text">Kliknij tutaj aby przejść do projektu</div>
-                                </div>
-                            </div>
-                        </a>
-                        <h3>Awesome Page!</h3>
-                        <p>
-                            <!-- <i class="fas fa-info-circle"></i> -->
-                            Strona internetowa korzystająca z Bootstrap 3 i jQuery.
-                        </p>
-                    </div>
-                    <div class="Portfolio-object">
-                        <a target="_blank" href="https://hertwing.github.io/bootstrap-landing-page/">
-                            <div class="Portfolio-image-wrapper">
-                                <img src="./img/bootstrap-landing-page.jpg" alt="OBEY landing page" style="width: 100%;" />
-                                <div class="Portfolio-image-hover-wrapper">
-                                    <div class="Portfolio-image-hover-text">Kliknij tutaj aby przejść do projektu</div>
-                                </div>
-                            </div>
-                        </a>
-                        <h3>OBEY landing page</h3>
-                        <p>
-                            <!-- <i class="fas fa-info-circle"></i> -->
-                            Landing page wymyślonej firmy, napisana z użyciem Bootstrap 4 i jQuery.
-                        </p>
-                    </div>
-                    <div class="Portfolio-object">
-                        <a target="_blank" href="https://hertwing.github.io/myFirstReactApp/">
-                            <div class="Portfolio-image-wrapper">
-                                <img src="./img/first-react-app.jpg" alt="React app" style="width: 100%" />
-                                <div class="Portfolio-image-hover-wrapper">
-                                    <div class="Portfolio-image-hover-text">Kliknij tutaj aby przejść do projektu</div>
-                                </div>
-                            </div>
-                        </a>
-                        <h3>Książka adresowa</h3>
-                        <p>
-                            <!-- <i class="fas fa-info-circle"></i> -->
-                            Aplikacja powstała z&nbsp;użyciem biblioteki React.js. Jest to prosta książka adresowa z&nbsp;możliwością dodawania nowych użytkowników, edytowania dodanych, usuwania pojedynczych wpisów jak i&nbsp;całej bazy danych. Aplikacja operuje na pamięci wewnętrznej przeglądarki.
-                        </p>
-                    </div>
-                    <div class="Portfolio-object">
-                        <a target="_blank" href="https://hertwing.github.io/roman_numeral_converter/">
-                            <div class="Portfolio-image-wrapper">
-                                <img src="./img/roman-numeral.jpg" alt="Roman numeral app" style="width: 100%" />
-                                <div class="Portfolio-image-hover-wrapper">
-                                    <div class="Portfolio-image-hover-text">Kliknij tutaj aby przejść do projektu</div>
-                                </div>
-                            </div>
-                        </a>
-                        <h3>Konwerter dat rzymskich</h3>
-                        <p>
-                            <!-- <i class="fas fa-info-circle"></i> -->
-                            Prosta aplikacja służąca do konwertowania dat rzymskich na daty w systemie dziesietnym i odwrotnie. Skrypty zostały napisane w czystym JavaScript.
-                        </p>
+                        <p>Zapraszam Cię do zapoznania się z&nbsp;moimi projektami.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="Contact">
-            <div class="Background-opacity-wrapper"></div>
-            <div class="Contact-wrapper">
-                <div class="Contact-header">
-                    <h1>Kontakt</h1>
-                </div>
-                <div class="Contact-container">
-                    <div class="Contact-object">
-                        <i class="fas fa-envelope"></i><a href="mailto:henczel.piotr@gmail.com?Subject=Kontakt" target="_top"> henczel.piotr@gmail.com</a>
+        </section>
+        <main>
+            <section id="portfolio">
+                <div class="portfolio_wrapper">
+                    <div class="portfolio_header">
+                        <h2>Moje prace</h2>
                     </div>
-                    <div class="Contact-object">
+                    <div class="portfolio_container">
+                    	<div class="portfolio_object">
+                            <a target="_blank" href="https://piotrh.usermd.net/">
+                                <div class="portfolio_image_wrapper">
+                                    <img src="./img/rwd-blogger.jpg" alt="React app" style="width: 100%;" />
+                                    <div class="portfolio_image_hover_wrapper">
+                                        <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <h3>RWD Blog</h3>
+                            <p>
+                                <!-- <i class="fas fa-info-circle"></i> -->
+                                Blog zbudowany w&nbsp;React.js. Na chwilę obecną jest to mój największy projekt. Do obsługi skryptów po stronie serwera użyłem języka PHP. Mimo działającej głównej funkcjonalności, projekt jest wciąż w&nbsp;budowie.
+                            </p>
+                        </div>
+                        <div class="portfolio_object">
+                            <a target="_blank" href="https://hertwing.github.io/memory-game/">
+                                <div class="portfolio_image_wrapper">
+                                    <img src="./img/memory-game.jpg" alt="React app" style="width: 100%;" />
+                                    <div class="portfolio_image_hover_wrapper">
+                                        <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <h3>Memory Game</h3>
+                            <p>
+                                <!-- <i class="fas fa-info-circle"></i> -->
+                                Prosta gra z&nbsp;rodzaju pamięciowych, napisana w&nbsp;React.js.
+                            </p>
+                        </div>
+                        <div class="portfolio_object">
+                            <a target="_blank" href="https://hertwing.github.io/another-bootstrap-page/">
+                                <div class="portfolio_image_wrapper">
+                                    <img src="./img/awesome-page.jpg" alt="Bootstrap page" style="width: 100%;" />
+                                    <div class="portfolio_image_hover_wrapper">
+                                        <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <h3>Awesome Page!</h3>
+                            <p>
+                                <!-- <i class="fas fa-info-circle"></i> -->
+                                Strona internetowa korzystająca z Bootstrap 3 i jQuery.
+                            </p>
+                        </div>
+                        <div class="portfolio_object">
+                            <a target="_blank" href="https://hertwing.github.io/bootstrap-landing-page/">
+                                <div class="portfolio_image_wrapper">
+                                    <img src="./img/bootstrap-landing-page.jpg" alt="OBEY landing page" style="width: 100%;" />
+                                    <div class="portfolio_image_hover_wrapper">
+                                        <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <h3>OBEY landing page</h3>
+                            <p>
+                                <!-- <i class="fas fa-info-circle"></i> -->
+                                Landing page wymyślonej firmy, napisana z użyciem Bootstrap 4 i jQuery.
+                            </p>
+                        </div>
+                        <div class="portfolio_object">
+                            <a target="_blank" href="https://hertwing.github.io/myFirstReactApp/">
+                                <div class="portfolio_image_wrapper">
+                                    <img src="./img/first-react-app.jpg" alt="React app" style="width: 100%" />
+                                    <div class="portfolio_image_hover_wrapper">
+                                        <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <h3>Książka adresowa</h3>
+                            <p>
+                                <!-- <i class="fas fa-info-circle"></i> -->
+                                Aplikacja powstała z&nbsp;użyciem biblioteki React.js. Jest to prosta książka adresowa z&nbsp;możliwością dodawania nowych użytkowników, edytowania dodanych, usuwania pojedynczych wpisów jak i&nbsp;całej bazy danych. Aplikacja operuje na pamięci wewnętrznej przeglądarki.
+                            </p>
+                        </div>
+                        <div class="portfolio_object">
+                            <a target="_blank" href="https://hertwing.github.io/roman_numeral_converter/">
+                                <div class="portfolio_image_wrapper">
+                                    <img src="./img/roman-numeral.jpg" alt="Roman numeral app" style="width: 100%" />
+                                    <div class="portfolio_image_hover_wrapper">
+                                        <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <h3>Konwerter dat rzymskich</h3>
+                            <p>
+                                <!-- <i class="fas fa-info-circle"></i> -->
+                                Prosta aplikacja służąca do konwertowania dat rzymskich na daty w&nbsp;systemie dziesietnym i&nbsp;odwrotnie. Skrypty zostały napisane w&nbsp;czystym JavaScript.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <section id="contact">
+            <div class="background_opacity_wrapper"></div>
+            <div class="contact_wrapper">
+                <div class="contact_header">
+                    <h2>Kontakt</h2>
+                </div>
+                <div class="contact_container">
+                    <div class="contact_object">
+                        <i class="fas fa-envelope"></i><a href="mailto:henczel.piotr@gmail.com?Subject=Kontakt" target="_top">  henczel.piotr@gmail.com</a>
+                    </div>
+                    <div class="contact_object">
                         <a href="https://github.com/hertwing/" target="_blank">
                             <i class="fab fa-github"></i> github.com/hertwing
                         </a>
                     </div>
-                    <div class="Contact-object">
+                    <div class="contact_object">
                         <a href="https://www.facebook.com/piotr.henczel" target="_blank">
                             <i class="fab fa-facebook-square"></i> facebook.com/piotr.henczel
                         </a>
                     </div>
-                    <div class="Contact-object">
-                        <a href="https://www.linkedin.com/in/piotr-henczel-443b63162/" target="_blank">
-                            <i class="fab fa-linkedin"></i> linkedin.com/in/piotr-henczel-443b63162
+                    <div class="contact_object">
+                        <a href="https://www.linkedin.com/in/piotr-henczel/" target="_blank">
+                            <i class="fab fa-linkedin"></i> linkedin.com/in/piotr-henczel/
                         </a>
                     </div>
                 </div>
@@ -337,11 +336,12 @@
                     My portfolio - Piotr Henczel - 2018
                 </div>
             </div>
-        </div>  
+        </section>  
     </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./jquery-ui/jquery-ui.min.js"></script>
-    <script src="app.js?time=<?php echo time()?>"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
