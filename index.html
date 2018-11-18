@@ -49,8 +49,8 @@
             </div>
         </div>
     </div>
-    <div class="main_container">
-        <section class="nav_bar_wrapper">
+    <main class="main_container">
+        <nav class="nav_bar_wrapper">
             <div class="nav_bar">
                 <div id="my_logo" class="main_image_wrapper_link">Piotr Henczel - Portfolio</div>
                 <div class="nav_menu">
@@ -69,7 +69,7 @@
                 <div class="portfolio_link" id="portfolio_link_mobile">Moje projekty</div>
                 <div class="contact_link" id="pontact_link_mobile">Kontakt</div>
             </div>
-        </section>
+        </nav>
         <section id="technologies">
             <div class="technologies_wrapper">
                 <div class="technologies_header">
@@ -205,107 +205,105 @@
                 </div>
             </div>
         </section>
-        <main>
-            <section id="portfolio">
-                <div class="portfolio_wrapper">
-                    <div class="portfolio_header">
-                        <h2>Moje prace</h2>
+        <section id="portfolio">
+            <div class="portfolio_wrapper">
+                <div class="portfolio_header">
+                    <h2>Moje prace</h2>
+                </div>
+                <div class="portfolio_container">
+                	<div class="portfolio_object">
+                        <a target="_blank" href="https://piotrh.usermd.net/">
+                            <div class="portfolio_image_wrapper">
+                                <img src="./img/rwd-blogger.jpg" alt="React app" style="width: 100%;" />
+                                <div class="portfolio_image_hover_wrapper">
+                                    <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
+                                </div>
+                            </div>
+                        </a>
+                        <h3>RWD Blog</h3>
+                        <p>
+                            <!-- <i class="fas fa-info-circle"></i> -->
+                            Blog zbudowany w&nbsp;React.js. Na chwilę obecną jest to mój największy projekt. Do obsługi skryptów po stronie serwera użyłem języka PHP. Mimo działającej głównej funkcjonalności, projekt jest wciąż w&nbsp;budowie.
+                        </p>
                     </div>
-                    <div class="portfolio_container">
-                    	<div class="portfolio_object">
-                            <a target="_blank" href="https://piotrh.usermd.net/">
-                                <div class="portfolio_image_wrapper">
-                                    <img src="./img/rwd-blogger.jpg" alt="React app" style="width: 100%;" />
-                                    <div class="portfolio_image_hover_wrapper">
-                                        <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
-                                    </div>
+                    <div class="portfolio_object">
+                        <a target="_blank" href="https://hertwing.github.io/memory-game/">
+                            <div class="portfolio_image_wrapper">
+                                <img src="./img/memory-game.jpg" alt="React app" style="width: 100%;" />
+                                <div class="portfolio_image_hover_wrapper">
+                                    <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
                                 </div>
-                            </a>
-                            <h3>RWD Blog</h3>
-                            <p>
-                                <!-- <i class="fas fa-info-circle"></i> -->
-                                Blog zbudowany w&nbsp;React.js. Na chwilę obecną jest to mój największy projekt. Do obsługi skryptów po stronie serwera użyłem języka PHP. Mimo działającej głównej funkcjonalności, projekt jest wciąż w&nbsp;budowie.
-                            </p>
-                        </div>
-                        <div class="portfolio_object">
-                            <a target="_blank" href="https://hertwing.github.io/memory-game/">
-                                <div class="portfolio_image_wrapper">
-                                    <img src="./img/memory-game.jpg" alt="React app" style="width: 100%;" />
-                                    <div class="portfolio_image_hover_wrapper">
-                                        <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
-                                    </div>
+                            </div>
+                        </a>
+                        <h3>Memory Game</h3>
+                        <p>
+                            <!-- <i class="fas fa-info-circle"></i> -->
+                            Prosta gra z&nbsp;rodzaju pamięciowych, napisana w&nbsp;React.js.
+                        </p>
+                    </div>
+                    <div class="portfolio_object">
+                        <a target="_blank" href="https://hertwing.github.io/another-bootstrap-page/">
+                            <div class="portfolio_image_wrapper">
+                                <img src="./img/awesome-page.jpg" alt="Bootstrap page" style="width: 100%;" />
+                                <div class="portfolio_image_hover_wrapper">
+                                    <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
                                 </div>
-                            </a>
-                            <h3>Memory Game</h3>
-                            <p>
-                                <!-- <i class="fas fa-info-circle"></i> -->
-                                Prosta gra z&nbsp;rodzaju pamięciowych, napisana w&nbsp;React.js.
-                            </p>
-                        </div>
-                        <div class="portfolio_object">
-                            <a target="_blank" href="https://hertwing.github.io/another-bootstrap-page/">
-                                <div class="portfolio_image_wrapper">
-                                    <img src="./img/awesome-page.jpg" alt="Bootstrap page" style="width: 100%;" />
-                                    <div class="portfolio_image_hover_wrapper">
-                                        <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
-                                    </div>
+                            </div>
+                        </a>
+                        <h3>Awesome Page!</h3>
+                        <p>
+                            <!-- <i class="fas fa-info-circle"></i> -->
+                            Strona internetowa korzystająca z Bootstrap 3 i jQuery.
+                        </p>
+                    </div>
+                    <div class="portfolio_object">
+                        <a target="_blank" href="https://hertwing.github.io/bootstrap-landing-page/">
+                            <div class="portfolio_image_wrapper">
+                                <img src="./img/bootstrap-landing-page.jpg" alt="OBEY landing page" style="width: 100%;" />
+                                <div class="portfolio_image_hover_wrapper">
+                                    <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
                                 </div>
-                            </a>
-                            <h3>Awesome Page!</h3>
-                            <p>
-                                <!-- <i class="fas fa-info-circle"></i> -->
-                                Strona internetowa korzystająca z Bootstrap 3 i jQuery.
-                            </p>
-                        </div>
-                        <div class="portfolio_object">
-                            <a target="_blank" href="https://hertwing.github.io/bootstrap-landing-page/">
-                                <div class="portfolio_image_wrapper">
-                                    <img src="./img/bootstrap-landing-page.jpg" alt="OBEY landing page" style="width: 100%;" />
-                                    <div class="portfolio_image_hover_wrapper">
-                                        <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
-                                    </div>
+                            </div>
+                        </a>
+                        <h3>OBEY landing page</h3>
+                        <p>
+                            <!-- <i class="fas fa-info-circle"></i> -->
+                            Landing page wymyślonej firmy, napisana z użyciem Bootstrap 4 i jQuery.
+                        </p>
+                    </div>
+                    <div class="portfolio_object">
+                        <a target="_blank" href="https://hertwing.github.io/myFirstReactApp/">
+                            <div class="portfolio_image_wrapper">
+                                <img src="./img/first-react-app.jpg" alt="React app" style="width: 100%" />
+                                <div class="portfolio_image_hover_wrapper">
+                                    <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
                                 </div>
-                            </a>
-                            <h3>OBEY landing page</h3>
-                            <p>
-                                <!-- <i class="fas fa-info-circle"></i> -->
-                                Landing page wymyślonej firmy, napisana z użyciem Bootstrap 4 i jQuery.
-                            </p>
-                        </div>
-                        <div class="portfolio_object">
-                            <a target="_blank" href="https://hertwing.github.io/myFirstReactApp/">
-                                <div class="portfolio_image_wrapper">
-                                    <img src="./img/first-react-app.jpg" alt="React app" style="width: 100%" />
-                                    <div class="portfolio_image_hover_wrapper">
-                                        <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
-                                    </div>
+                            </div>
+                        </a>
+                        <h3>Książka adresowa</h3>
+                        <p>
+                            <!-- <i class="fas fa-info-circle"></i> -->
+                            Aplikacja powstała z&nbsp;użyciem biblioteki React.js. Jest to prosta książka adresowa z&nbsp;możliwością dodawania nowych użytkowników, edytowania dodanych, usuwania pojedynczych wpisów jak i&nbsp;całej bazy danych. Aplikacja operuje na pamięci wewnętrznej przeglądarki.
+                        </p>
+                    </div>
+                    <div class="portfolio_object">
+                        <a target="_blank" href="https://hertwing.github.io/roman_numeral_converter/">
+                            <div class="portfolio_image_wrapper">
+                                <img src="./img/roman-numeral.jpg" alt="Roman numeral app" style="width: 100%" />
+                                <div class="portfolio_image_hover_wrapper">
+                                    <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
                                 </div>
-                            </a>
-                            <h3>Książka adresowa</h3>
-                            <p>
-                                <!-- <i class="fas fa-info-circle"></i> -->
-                                Aplikacja powstała z&nbsp;użyciem biblioteki React.js. Jest to prosta książka adresowa z&nbsp;możliwością dodawania nowych użytkowników, edytowania dodanych, usuwania pojedynczych wpisów jak i&nbsp;całej bazy danych. Aplikacja operuje na pamięci wewnętrznej przeglądarki.
-                            </p>
-                        </div>
-                        <div class="portfolio_object">
-                            <a target="_blank" href="https://hertwing.github.io/roman_numeral_converter/">
-                                <div class="portfolio_image_wrapper">
-                                    <img src="./img/roman-numeral.jpg" alt="Roman numeral app" style="width: 100%" />
-                                    <div class="portfolio_image_hover_wrapper">
-                                        <div class="portfolio_image_hover_text">Kliknij tutaj aby przejść do projektu</div>
-                                    </div>
-                                </div>
-                            </a>
-                            <h3>Konwerter dat rzymskich</h3>
-                            <p>
-                                <!-- <i class="fas fa-info-circle"></i> -->
-                                Prosta aplikacja służąca do konwertowania dat rzymskich na daty w&nbsp;systemie dziesietnym i&nbsp;odwrotnie. Skrypty zostały napisane w&nbsp;czystym JavaScript.
-                            </p>
-                        </div>
+                            </div>
+                        </a>
+                        <h3>Konwerter dat rzymskich</h3>
+                        <p>
+                            <!-- <i class="fas fa-info-circle"></i> -->
+                            Prosta aplikacja służąca do konwertowania dat rzymskich na daty w&nbsp;systemie dziesietnym i&nbsp;odwrotnie. Skrypty zostały napisane w&nbsp;czystym JavaScript.
+                        </p>
                     </div>
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
         <section id="contact">
             <div class="background_opacity_wrapper"></div>
             <div class="contact_wrapper">
@@ -337,7 +335,7 @@
                 </div>
             </div>
         </section>  
-    </div>
+    </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./jquery-ui/jquery-ui.min.js"></script>
